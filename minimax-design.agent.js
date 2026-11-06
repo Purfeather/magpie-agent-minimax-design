@@ -17,7 +17,7 @@ export const agent = {
   // no `model` key: Design picks its model in its own UI, so this row is a switch
   dir: "$LOCALAPPDATA/Programs/MiniMax Design",
   notice:
-    "退出 MiniMax Design 再切换（运行中的 Design 会回写配置），切换后重启 Design 生效。在 Design 的模型菜单里选 Magpie 条目下的模型。",
+    "Windows only 仅限 Windows — quit MiniMax Design before connecting, restart it after（连接前退出、连接后重启）",
 }
 
 // magpie model fields -> Design's custom-model entry fields
